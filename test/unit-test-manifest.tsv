@@ -1,0 +1,5 @@
+function	test_kind	test_source
+p101_getopt	behavior	test/test_behavior.c
+p101_getopt_long	behavior	test/test_behavior.c
+p101_getopt_long_only	behavior	test/test_behavior.c
+p101_getsubopt	behavior	test/test_behavior.c
