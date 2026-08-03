@@ -66,7 +66,11 @@ static void test_option_parsers(const struct p101_env *env)
         EXPECT(child >= 0);
         if(child == 0)
         {
-            _exit(run_parser(env, which));
+            int child_status;
+
+            child_status = run_parser(env, which);
+            p101_env_complete_event_streams(env);
+            _exit(child_status);
         }
         if(child > 0)
         {
