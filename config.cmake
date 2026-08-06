@@ -19,9 +19,7 @@ set(BSD_STANDARD_FLAGS -D_BSD_SOURCE -D__BSD_VISIBLE)
 
 set(LIBRARY_TARGETS p101_cli)
 set(p101_cli_SOURCES
-        src/posix/stdlib.c
-        src/posix/unistd.c
-        src/unix/getopt.c
+        src/cli.c
 )
 set(p101_cli_HEADERS
         include/p101_cli/cli.h

@@ -1,5 +1,5 @@
-function	test_kind	test_source
-p101_getopt	behavior	test/test_behavior.c
-p101_getopt_long	behavior	test/test_behavior.c
-p101_getopt_long_only	behavior	test/test_behavior.c
-p101_getsubopt	behavior	test/test_behavior.c
+function	function_usr	test_kind	test_source
+p101_getopt	c:@F@p101_getopt	behavior	test/test_behavior.c
+p101_getopt_long	c:@F@p101_getopt_long	behavior	test/test_behavior.c
+p101_getopt_long_only	c:@F@p101_getopt_long_only	behavior	test/test_behavior.c
+p101_getsubopt	c:@F@p101_getsubopt	behavior	test/test_behavior.c
