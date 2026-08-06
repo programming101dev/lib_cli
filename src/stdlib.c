@@ -35,7 +35,6 @@
  * limitations under the License.
  */
 
-#include <p101_env/wrapper.h>
 #include <stdlib.h>
 
 #ifdef __APPLE__
