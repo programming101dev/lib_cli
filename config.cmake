@@ -19,10 +19,14 @@ set(BSD_STANDARD_FLAGS -D_BSD_SOURCE -D__BSD_VISIBLE)
 
 set(LIBRARY_TARGETS p101_cli)
 set(p101_cli_SOURCES
-        src/cli.c
+        src/getopt.c
+        src/stdlib.c
+        src/unistd.c
 )
 set(p101_cli_HEADERS
-        include/p101_cli/cli.h
+        include/p101_cli/p101_getopt.h
+        include/p101_cli/p101_stdlib.h
+        include/p101_cli/p101_unistd.h
 )
 set(p101_cli_LINK_LIBRARIES
         p101_error
